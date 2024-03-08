@@ -63,10 +63,18 @@ public class CustomList extends ArrayAdapter<City> {
         return false;
 
     }
-    /*
+
     public void deleteCity(City city){
-        //cities.remove(city);
+        return;
+        /*for(City cityy: cities){
+            if(cityy.compareTo(city)==0){
+                cities.remove(cityy);
+                return;
+            }
+        }
+        return;*/
     }
+    /*
     public int countCity(){
         return cities.size();
     }*/
